@@ -28,7 +28,7 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+    git clone [https://github.com/Vamshi2612/College-Connect-Workshop-s-Hub.git](https://github.com/your-username/your-repository-name.git)
     ```
 2.  **Navigate to the project directory:**
     ```bash
