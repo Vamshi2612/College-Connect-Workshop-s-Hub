@@ -1,0 +1,58 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Connect Workshops Hub - Login</title>
+    <link rel="stylesheet" href="logincss.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="logo">
+                <img src="AD LOGO.png" alt="College Connect Workshops Hub Logo">
+            </div>
+            <div class="login-form">
+                <h1>LOGIN DETAILS</h1>
+                <form id="loginForm">
+                    <div class="input-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" required aria-label="Username">
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required aria-label="Password">
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+                <p id="message"></p> <!-- Placeholder for error/success messages -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) 
+        {
+            event.preventDefault(); // Prevent the form from submitting
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Hardcoded credentials
+            const validUsername = 'batch@13';
+            const validPassword = 'batch@13';
+
+            // Validate credentials
+            if (username === validUsername && password === validPassword) 
+            {      
+                window.location.href = "home.html"; // Redirect to homepage
+            } 
+            else 
+		    {
+                document.getElementById('message').textContent = 'Invalid username or password.';
+                document.getElementById('message').style.color = 'red'; // Set error message color
+            }
+        });
+    </script>
+</body>
+</html>

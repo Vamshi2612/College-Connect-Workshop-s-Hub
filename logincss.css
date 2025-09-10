@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 750px; /* Increased max-width for larger layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 300px; /* Increased size for the logo */
+    height: auto;
+}
+
+.login-form {
+    flex: 1;
+    padding-left: 30px; /* Adjusted padding for spacing */
+}
+
+h1 {
+    font-size: 28px; /* Increased font size for heading */
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 16px; /* Increased font size for labels */
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+.input-group input {
+    width: 80%;
+    padding: 12px; /* Increased padding for input fields */
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px; /* Increased font size for input fields */
+}
+
+button {
+    width: 100%;
+    padding: 12px; /* Increased padding for button */
+    background-color: #ADD8E6; /* Light blue color */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px; /* Increased font size for button */
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #87CEEB; /* Slightly darker light blue color */
+}
+
+p {
+    font-size: 16px; /* Increased font size for paragraph */
+    color: #666666;
+}
+
+p a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
